@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* header decoration */
+header {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0 0 0 / 0.60);
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+}
+
+.header-div {
+  width: 75%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+/* name and logo */
+.header-div>a {
+  text-decoration: none;
+  color:#ffd230
+}
+
+/* navbar style */
+.head-navbar {
+  display: flex;
+}
+
+.head-navbar>li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.head-navbar>li>a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffd230;
+  border-radius: 10px;
+  background-color: black;
+  border: 2px solid;
+  padding: 15px 20px;
+  transition: all 0.25s;
+}
+
+.head-navbar>li>a:hover {
+  background-color:#ffd230;
+  color: black;
+}
+
+/* body style */
+
+.container1 {
+  background-image: url(../assets/images/Background-1.png);
+  height: 688px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.con1-center-div {
+  padding-top: 100px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.con1-1 {
+  flex: 0 0 800px;
+}
+
+.con1-1>h2 {
+  font-size: 35px;
+}
+
+.con1-1>p {
+  font-size: 25px;
+}
+
+.buttons-con {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding-top: 25px;
+}
+
+
+.buttons-con>a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  border: solid black 3px;
+  padding: 25px 20px;
+  border-radius: 1000px;
+  transition:all 0.25s;
+}
+
+.buttons-con>a:first-child {
+  grid-area: 1/1;
+}
+
+.buttons-con>a:last-child {
+  padding: 25px 50px;
+  grid-area: 2/2;
+}
+
+/*con1-1 buttons hover effact */
+
+.buttons-con>a:hover {
+  color:#ffd230;
+  background-color: black;
+}
+
+
+/* con1-2 style  */
+
+.con1-2>img {
+  width: 600px;
+  position: relative;
+  top: 90px;
+  right: 110px;
+}
+
+.con1-2>a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  background-color: #ffd230;
+  padding: 30px;
+  border: solid 3px black;
+  border-radius: 30px;
+  position: relative;
+  bottom: 75px;
+  left: 280px;
+  transition: all 0.25s;
+}
+
+.con1-2>a:hover {
+  border-color: #ffd230;
+  background-color: black;
+  color: #ffd230;
+}
